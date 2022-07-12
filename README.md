@@ -1,9 +1,9 @@
 # KCE-Multi-Study
 
-Don't Read this, it is not related to you.😅🤷‍♂️
-...Pehli fursat me nikal  ....
+########## Don't Read this, it is not related to you.😅🤷‍♂️ ########
+<!-- ...Pehli fursat me nikal  .... -->
 
-#############   PYTHON PRACTICALS
+#############   PYTHON PRACTICALS ##
 ***********    Practical 1
 
 Program Name: Write a Program to calculate area of circle, rectangle, triangle.
