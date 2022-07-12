@@ -1,7 +1,7 @@
 # KCE-Multi-Study
 
 ########## Don't Read this, it is not related to you.😅🤷‍♂️ ########
-<!-- ...Pehli fursat me nikal  .... -->
+##### ...Pehli fursat me nikal  .... ###  # only for buddies...#
 
 #############   PYTHON PRACTICALS ##
 ***********    Practical 1
