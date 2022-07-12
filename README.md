@@ -9,53 +9,34 @@ Don't Read this, it is not related to you.😅🤷‍♂️
 Program Name: Write a Program to calculate area of circle, rectangle, triangle.
 
 import math
-
-print("**********Choose an Option:*********");
-
-print("1: Area of the Circle"):
-
-print("2: Area of the Rectangle ");
-
-print("3: Area of the Triangle"):
-
-#input the geometry shape
-
-choice =int(input(^ prime prime prime prime ))
-
-# area of the circle
-
-if choice==1:
-
-# input circle radius
-
-radius = float(input("Enter the radius of the Circle:"))
-
-area=math.pi^ *pow(radius * .2)
-
-print("The area of the circle with radius (radius) is: \{round(area, 2)\}")
-
-#area of the rectangle
-
-if choice--2:
-
-width=float(input("Enter the width of the rectangle: ")) length = float(input("Enter the length of the rectangle: "))
-
-area=width^ *length
+print("\n Choose any one  \n\n\n")
 
 
-print("The area of the ractangle is (round(area,2))")
+print("1. Radius of circle \n")
+print("2. Radius of Triangle \n")
+print("3. Radius of Squere \n")
 
-# area of triangle using heron's formula.
+ch=int(input("Enter ur choice :  "))
 
-if choice ==3:
+if(ch==1):
+    
+     r=float(input("Enter radius of circle : "))
+     sol=3.14*pow(r,2)
+     # print(f"Area {r} is : {round(sol,3)}")     we can also write with this formate.
 
-a, b, c = map(float, input("Enter the 3 sides of triangle eg (12 13 14):").split())
+     print("Area of circle : ",round(sol,3))
+    
+if(ch==2):
+    
+     h,b=float(input("Enter Hight of Triangle : ")),float(input("Enter Base of Triangle : "))
+     sol=.5*b*h
+     print("Area of circle : ",round(sol,3))
 
-S =(a + b + c) / 2
-
-area =math.sqrt(s^ *(s - a)^ * (s-b)^ * (s-c))
-
-print("The area of the triangle is (round(area,2)}")
+if(ch==3):
+    
+     w,h=float(input("Enter width of Squere : ")),float(input("Enter hight of Squere : "))
+     sol=w*h
+     print("Area of circle : ",round(sol,3))
 
 
 ##############  PRACTICAL 2 ##############
