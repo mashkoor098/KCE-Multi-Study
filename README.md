@@ -22,14 +22,14 @@ if(ch==1):
     
      r=float(input("Enter radius of circle : "))
      sol=3.14*pow(r,2)
-     # print(f"Area {r} is : {round(sol,3)}")     we can also write with this formate.
+
 
      print("Area of circle : ",round(sol,3))
     
 if(ch==2):
     
      h,b=float(input("Enter Hight of Triangle : ")),float(input("Enter Base of Triangle : "))
-     sol=.5*b*h
+     sol=0.5*b*h
      print("Area of circle : ",round(sol,3))
 
 if(ch==3):
